@@ -1,0 +1,41 @@
+
+.widget{
+    background: $light-blue;
+    margin-bottom: $l-size;
+}
+
+.widget__message {
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+    text-align: center;
+    border-bottom:1px solid darken($light-blue, 10%);;
+}
+.widget-header {
+    background: $blue;
+    color: $off-white;
+    padding: $m-size;
+    display: flex;
+    justify-content:space-between;
+}
+
+.widget-header__title {
+    margin: 0;
+}
+
+.tablegrid {
+    width: 800px;
+}
+
+.errorText {
+    margin-top: 0;
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+}
+
+.addContactBorder {
+    border: 0.5px solid black;
+    border-top-left-radius: 10% ;
+    padding: $m-size;
+}

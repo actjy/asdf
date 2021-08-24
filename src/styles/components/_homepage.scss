@@ -1,0 +1,39 @@
+.addContact {
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size $m-size;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+}
+
+.addContact__text {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    word-break: break-all;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    padding: $m-size $m-size;
+}
+
+.currentDate {
+    input[type="date"]::before {
+    color: #999999;
+    content: attr(placeholder);
+    }
+    input[type="date"] {
+    color: #ffffff;
+    }
+    input[type="date"]:focus,
+    input[type="date"]:valid {
+    color: #666666;
+    }
+    input[type="date"]:focus::before,
+    input[type="date"]:valid::before {
+    content: "" !important;
+    }
+    }
